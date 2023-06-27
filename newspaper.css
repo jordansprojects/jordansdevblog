@@ -1,8 +1,13 @@
-/* source: https://codepen.io/silkine/pen/QWBxVX
-I may add some of my own modifcations as well.
-I will add comment above to differentiaye the work
-that is mine from the work that is not mine. If it has no
-comment above it - assume it came from the link above!*/
+/* 
+The base of this CSS came from this source: https://codepen.io/silkine/pen/QWBxVX 
+------------------------------------------------------------------------------------
+I have made a few modifcations here and there, I comment them to differentiate between
+the CSS document I took and the work I have done.
+*/
+
+
+/* import English Towne font */
+@import url('https://fonts.cdnfonts.com/css/english-towne');
 
 body{
     font-family: 'Droid Serif', serif;
@@ -11,10 +16,10 @@ body{
     background-color: #f9f7f1;
 }
 header{
-    font-family: 'Playfair Display', serif;
+    /* Change the header font to English Towne to look like New York Times header */
+    font-family: 'English Towne', serif;
     font-weight: 900;
     font-size: 80px;
-    text-transform: uppercase;
     display: inline-block;
     line-height: 72px;
     margin-bottom: 20px;

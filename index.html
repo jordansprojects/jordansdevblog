@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <head>
 <link rel = "stylesheet" href="newspaper.css">
+<!-- use this for English Towne Font --> 
+<link href="https://fonts.cdnfonts.com/css/english-towne" rel="stylesheet">
+<style>
+@import url('https://fonts.cdnfonts.com/css/english-towne');
+</style>
+
 <title> Jordans Developer Blog </title>
 
 
-
 <div class = "head">
-	<header> JORDANS DEVELOPER BLOG </header>
-<div class="subhead"> Oceanside, CA - Monday June 26, 2023 </div>
+	<header> Jordans Blog </header>
+<div class="subhead" id="dateHeader"> test </div>
 
-<p> the people of dennys would like for me to leave i have been here for too long </p>
 </div>
 
 </head>
+
+/* TODO: move this to a file dedicated to JavaScript <3 */ 
+<script type="text/javascript">
+	var now = new Date();
+
+	var date = now.toLocaleString('default', {weekday: 'long'}) + " " + now.toLocaleString('en-US', {month:'long',}) + " " +  now.getDate() + ", " + now.getFullYear();
+
+	var time = now.getHours() % 12 + ":" + now.getMinutes() + ":" + now.getSeconds();
+	document.getElementById('dateHeader').innerHTML =  date;
+</script>
 </html>
+
