@@ -6,9 +6,21 @@ the CSS document I took and the work I have done.
 */
 
 
+
 /* import English Towne font */
 @import url('https://fonts.cdnfonts.com/css/english-towne');
 
+
+/* A box class to hold blog entries */ 
+.box{
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+ overflow: scroll;
+
+}
 body{
     font-family: 'Droid Serif', serif;
     font-size: 14px;
