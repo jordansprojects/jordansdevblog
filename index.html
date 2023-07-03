@@ -19,20 +19,40 @@
 <div class="subhead" id="dateHeader"> </div>
 <div class="content">
     <div class="collumns">
+
+
+        <div class="collumn">
+ <div class="head"><span class="headline hl3">No Free Lunch and Explainability</span>
+	<span class="headline hl4">2 July 2023: </span></p>
+	<div class="article_text">
+		Today I had a frightening, yet comforting, realization while speaking with my coworker. We had just finshed helping a student with a homework dealing with deleting a key from a B+ tree. I had expressed that I find it interesting how different sources provide different rules for the B+ tree. I typically had not seen this when researching other data structures. My coworker explained to me that the further someone explores into mathematics and computer science, the less standardized concepts become. This was something that rang true to me, but I had wish I could have been warned of earlier. I spent my senior year of college frustrated. I was trying to wrap my end around new ideas but struggling to yield the results that I had felt the effort deserved. Previously in my experience in computer science and mathematics, I had felt that while problems can be challenging, there was a solution and that solution can be understood. In my data structures class, I felt that I could easily find informtation on and understand commonly used data structures and algorithms in CS. I thought that through rigorous effort alone, I could understand what I needed to understand. This would all change when began to take classes like Introduction to Optimization and Introduction to Deep Learning. Concepts became more and more niche, and I realized more and more how little I understand about the world.<br><br>
+
+		I expressed my frustrations to my coworker, specifically that it did not make sense to me that "trial and error" would be considered a primary method when determining how to construct a Deep Learning model. (This was something we were told in class.) To me, this seemed absurd. There are so many variations of a model you could build just going off of optimizers, weight initialization and activation functions alone. It was not until I spoke with a different coworker who confirmed that there is a degree of uncertainty when it comes to solving problems. I still have not reconciled with this yet, but I at least have heard it from multiple people I trust. My coworker mentioned the concept of "No Free Lunch Theorem" in mathematical forklore. In lamens terms (the only terms I can  describe this concept in at this moment in time) is the idea that solutions do not come easy, and that two different approaches may yield similar results when their performance is averaged accross all possible problems. I am still just beginning to learn about this concept, but it appears that it was not written with machine learning in mind, but it is related to it. My coworker has a talent of associating different topics together. We would go onto discuss the Monte Carlo simulation and AlphaZero. <br><br>
+
+		This conversation was highly relevant to my work, as I have been in the process of writing my own Monte Carlo tree search library so that I can reuse it accross differnt projects. I reworked the move generation code for the checker playing agent my group and I created in Intro to Deep Learning, but found that the MCTS process was still far too slow. I figured it was worth implementing my own monte carlo tree search where it utilizes methods to improve performance (such as root parallelization and the <a href="https://jeremykun.com/2013/10/28/optimism-in-the-face-of-uncertainty-the-ucb1-algorithm/"> UCB1 algorithm</a>). I am still in the process of writing this library, and realized that it is going to take a little time and continious research for me to yield the results I want to yield. This library is constructed so that it can interface with various problem spaces, so long as the end user generates all possible actions from a particular state and can determine the reward value from a given state. <br><br>
+
+		I am working on various projects that I will be discussing on this blog. One of them is Turtle Island. In Turtle Island my project partner and I desire to have a variety of mini-games. I thought it would be fascinating to apply the MCTS to poker playing in a Unity Game. This gives me further motivation to complete the MCTS library - but I plan try out other forms of synthetic intelligence as a placeholder (and for fun!). 
+	</p></div>
+
+	</div>
+</div>
+
         <div class="collumn">
  <div class="head"><span class="headline hl3">Creating This Blog</span>
 	<span class="headline hl4">1 July 2023: </span></p>
-		Hello. The purpose of this blog is to document my developement process of various projects. I look forward to adding and improving upon it as I continue its developement process alongside my other projects.</p></div>
+	<div class="article_text">
+		Hello. The purpose of this blog is to document my developement process of various projects. I look forward to adding and improving upon it as I continue its developement process alongside my other projects.</p></div></div>
 </div>
 
 	 	 <div class="collumn">
           <div class="head"><span class="headline hl3">HTML & CSS Credits </span>
 	<span class="headline hl4">1 July 2023: </span></p>
+	<div class="article_text">
 		<a href="https://codepen.io/silkine/pen/QWBxVX">Newspaper Style </a>
 <a href="https://www.cdnfonts.com/english-towne.font">Title Font</a><br>
 
 <a href="https://www.cdnfonts.com/english-towne.font">Title Font</a><br></div>
-</div>
+</div></div>
 
 </head>
 

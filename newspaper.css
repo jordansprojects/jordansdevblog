@@ -11,6 +11,9 @@ the CSS document I took and the work I have done.
 @import url('https://fonts.cdnfonts.com/css/english-towne');
 
 
+
+
+
 /* A box class to hold blog entries */ 
 .box{
   width: 250px;
@@ -35,7 +38,14 @@ header{
     display: inline-block;
     line-height: 72px;
     margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
 
+}
+
+/* I added this to adjust the size of the article text */
+.article_text{
+    font-size:12px;
 }
 p{
     margin-top: 0;
@@ -140,7 +150,7 @@ p{
 .collumn .headline.hl3{
     font-weight: 400;
     font-style: italic;
-    font-size: 36px;
+    font-size: 24px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
